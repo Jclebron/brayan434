@@ -1,0 +1,486 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background: black;
+}
+
+#contenedor{
+	        width: 5000px;
+	        margin: auto;
+	     
+	        margin-bottom: 20px;
+	        border-radius: 20px;
+	        overflow: hidden;
+	        color: #000;
+}
+
+header{
+	height: 150px;
+	background:#E02B1A ;
+	color:#E02B1A ;
+}
+
+header h1{
+	  font-size: 50px;
+	  text-align: center;
+	  line-height: 150px;
+	   font-family: arial;
+	  
+       
+  }
+
+  .img_servicio-claro{
+  	animation: 2s rotacion 1;
+  }
+
+
+@keyframes rotacion{
+	0%{ transform: rotate(270deg);
+
+	}
+}
+
+
+
+   nav .menu{
+   	    list-style: none;
+   	    padding: 0;
+   	    background: #092327;
+   	    width: 100%;
+   	    max-width: 1000px;
+   	    margin: auto;
+
+   	  }
+
+   	  .menu li a{
+   	  	        text-decoration: none;
+   	  	        color: white;
+   	  	        padding:20px;
+   	  	        display: block ;
+   	  }
+
+   	  .menu li{
+   	    display: inline-block;
+   	    text-align: center;
+   	    font-family: arial;
+
+
+   	  }
+.menu li a:hover{
+	   background: #ef8354 ;
+
+	}
+
+#contenido{
+   width: 700px;
+   height: 500px;
+   float: left ;
+   background: #E02B1A;
+   margin-top: 10px;
+   margin-right:10px ;
+   margin-bottom: 10px;
+   overflow: scroll;
+   border-radius: 30px;
+   padding: 20px;
+
+}
+
+#contenido h2{
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	font-family: arial;
+
+}
+
+#contenido h3{
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-family: arial;
+
+}
+
+#contenido p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-family: arial;
+
+}
+
+}
+
+#contenido Form{
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-family: arial;
+
+}
+
+aside{
+	width: 250px;
+	height: 500px;
+	margin-top: 10;
+	float: right;
+	background-image: url(LogoClaro2017.png);
+	background-size: 250px;
+	background-repeat: no-repeat;
+	
+}
+
+aside h2{
+	   font-size: 40px;
+	   text-align:center ;
+	   line-height: 100px;
+	   font-family: arial;
+}
+
+
+div{ 
+background: red;
+
+
+
+}
+
+
+
+
+footer{
+	  background: black;
+	  clear: both; 
+}
+
+footer h2{
+	  font-size: 40px;
+	  text-align: center;
+	  padding: 20px;
+	  font-style: italic;
+	  
+}
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 150%;
+
+	animation: cambio 20s infinite alternate linear;
+	animation-timing-function: ease-in;
+
+}
+
+
+
+.slider li {
+	width: 100%;
+	list-style: none;
+
+}
+
+.slider img {
+	width: 100%
+
+}
+ 
+ @keyframes cambio{
+ 	0%{margin-left: 0;}
+ 	20%{margin-left: 0;}
+
+ 	25%{margin-left: -100%;}
+ 	45%{ margin-left: -100%; }
+
+ 	50%{margin-left: -200%;}
+ 	70%{ margin-left: -200%;}
+
+ 	75%{margin-left: -300%;} 
+ 	100%{margin-left: -300;}
+}
+
+
+.logo-1{
+    object-fit: cover;
+}
+
+body{
+	background:darkred;
+	padding: 20px;
+}
+
+
+
+/*/Cabecera/*/
+header {
+	max-width: 1000px;
+	min-height: 130px;
+	margin: 0 auto;s
+	border-radius: 20px 20px 0 0;
+    background: beige;
+
+}
+
+
+#logo {
+	width: 320px;
+	float: left;
+	margin-top: 20px;
+	animation: 1s entradalogo 1;
+	margin-left: 100px;
+}
+/*Cabecera*/
+
+
+
+/*Menu-Horizontal*/
+#menu-h {
+	max-width: 1000px;
+	min-height: 50px;
+	background: #000;
+	margin: 0 auto;
+}
+
+#menu-h ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+#menu-h a {
+	color: #fff;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	background: red;
+	font-family: arial;
+	font-size: 18px;
+}
+
+
+#menu-h a:hover {
+	background: rgb(1, 91, 136);
+}
+
+
+#menu-h ul ul {
+	display: none;
+	position: absolute;
+}
+
+#menu-h ul li:hover ul {
+	display: block;
+}
+
+/*/Menu-Horizontal/*/
+
+
+
+#banner {
+	max-width: 1000px;
+	min-height: 250px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+#contenedor {
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+
+
+/*Menu-Vertical*/
+
+#menu-v {
+	width: 290px;
+	min-height: 500px;
+	background: beige;
+	float: left;
+	align-content: 13px;
+ 
+}
+
+
+#menu-v ul {
+	list-style: none;
+	padding: 10px;
+
+}
+
+
+
+#menu-v a {
+	display: block;
+	color: red;
+	background: white;
+	padding: 10px;
+	text-decoration: none;
+    margin-bottom: 8px;
+	border-radius: 5px;	
+	font-family: cambria;
+	font-size: 18px;
+}
+
+#menu-v a:hover {
+background: #069;
+
+}
+
+
+
+/*Menu-Vertical*/
+
+
+
+
+#contenido {
+	width: 700px;
+	min-height: 700px;
+	background: red;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#contenido h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+#contenido p {
+	font-family: arial;
+	font-size: 18px;
+	text-align: justify;
+	color: white;
+}
+
+/Contenido/
+
+
+/*Pie de pagina*/
+footer {
+	max-width: 985px;
+	text-align: center: ;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: black;
+	box-sizing: border-box;
+	padding: 30px;
+	font-family: arial;
+	font-size: 19px;
+	margin-top: auto;
+
+}
+/*Pie de pagina*/
+
+
+
+/*Keyframes*/
+@keyframes entradalogo {
+	0% {
+		transform: translateX(400px);
+	}
+}
+
+
+
+@keyframes rotacion {
+	0% {
+		transform: rotate(270deg);
+	}
+}
+
+p{
+    font-family: 'Segoe UI';
+}
+
+h2{
+    font-family: 'Segoe UI';
+}
+h3{
+    font-family: 'Segoe UI';
+}
+
+.img1{
+    margin-left: 63px;
+}
+
+.pd-1{
+    margin-bottom: 10px;
+
+}
+
+form{
+	width:250px;
+	padding:16px;
+	margin:auto;
+;
+}
+
+form{
+    margin-left: 20px;
+    position: absolute;
+    min-width: 280px;
+    max-width: 25%;
+    width: 25%;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+h1{
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    width: 120px;
+    left: 0;
+    bottom: 0;    
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+
+
+
+
+
+
